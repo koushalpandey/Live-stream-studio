@@ -7,7 +7,7 @@ export class UsersController {
 
     @Get()
     getUser() {
-        return 'this is koushal first project on nest'
+        return this.usersService.getUsers()
 
 
     }
